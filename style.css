@@ -1,0 +1,111 @@
+/* GERAL
+*****************************************************************************************************************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    
+}
+body {
+    font-family: 'inter', sans-serif;
+    line-height: 160%;
+    background-color: #121212;
+}
+
+
+main{
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* HEADER
+****************************************************************************************************************************************************/
+
+header {
+    text-align: center;
+    margin-top: 32px;
+}
+
+header img{
+    width: 280px; 
+    border: 0.9px solid #49708a;
+    border-radius: 50%;
+}
+
+/* MAIN
+*******************************************************************************************************************************************************/
+main{
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Opportunities{
+    text-align: center;
+}
+
+.Opportunities img{
+    vertical-align:middle;
+}
+
+.section-all{
+    color: #FFF;
+   /* background-image: linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100% );*/
+   border-radius: 10px;
+}
+
+.section-all div{
+    background-color: #2a2634;
+    padding: 24px 32px 32px 32px;
+    border-radius: 8px;
+}
+
+.section-all h2{
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0.47;
+}
+
+.section-all p{
+    letter-spacing: 0.18;
+    color: #a1a1aa;
+    line-height: 35px;
+}
+
+.section-all ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 24px;
+
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+.logo-conhecimento img{
+    margin: 0 10px;
+    margin-top: 32px;
+}
+
+.social li a img{
+    margin: 0;
+    padding: 0;
+}
+
+
+
